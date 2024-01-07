@@ -1,5 +1,5 @@
 //Задание 3
-function getSum() { 
+const getSum = () => { 
   numOne = +prompt("Введите любое число");
   return function() {
       numTwo = +prompt("Введите любое число");
