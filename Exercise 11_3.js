@@ -1,10 +1,10 @@
 //Задание 3
-function sum(numOne) {
+function getSum() { 
   numOne = +prompt("Введите любое число");
-  return function(numTwo) {
+  return function() {
       numTwo = +prompt("Введите любое число");
       return numOne + numTwo;
   };
 }
-let result = sum();
+let result = getSum();
 console.log(result());
